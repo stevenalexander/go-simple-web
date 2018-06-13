@@ -1,5 +1,7 @@
 # Go simple web example
 
+[![BuildStatus](https://travis-ci.org/stevenalexander/go-simple-web.svg?branch=master)](https://travis-ci.org/stevenalexander/go-simple-web?branch=master)
+
 Simple [Golang](https://golang.org/) web example application, based on this [tutorial](https://www.sohamkamani.com/blog/2017/09/13/how-to-build-a-web-application-in-golang/).
 
 ## Requires

@@ -9,7 +9,8 @@ Simple [Golang](https://golang.org/) web example application, based on this [tut
 ## Run
 
 ```
-go run main.go
+go build
+./go-simple-web # runs on http://localhost:8080
 ```
 
 ## Test
@@ -17,3 +18,8 @@ go run main.go
 ```
 go test ./...
 ```
+
+## Notes
+
+* Used [dep](https://github.com/golang/dep) for dependency management
+* Commited `vendor` folder as it seems to be the common practise for small projects to include all resolved dependencies
